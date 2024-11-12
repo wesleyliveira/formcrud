@@ -42,6 +42,8 @@
                             </td>
                         </tr>
                     @empty
+                    <div class="alert alert-warning" role="alert">
+                        Nenhum usuário cadastrado.
                     @endforelse
                 </tbody>
             </table>
