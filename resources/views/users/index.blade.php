@@ -3,10 +3,10 @@
 @section('content')
     <div class="card mt-4 mb-4 border-light shadow text-center">
 
-        <div class="card-header hstack gap-2">
+        <div class="card-header hstack gap-2 text-center">
 
-            <span class="mx-auto">Lista de Usuários</span>
-            <span class="ms-auto"><a href="{{ route('user.create') }}" class="btn btn-outline-success btn-sm">
+            <span class="mx-auto"><strong>Lista de Usuários</strong></span>
+            <span class="ms-auto"><a href="{{ route('user.create') }}" class="btn btn btn-success btn-sm">
                     Cadastrar</a></span>
         </div>
 
@@ -45,6 +45,7 @@
                     @endforelse
                 </tbody>
             </table>
+            {{$users->links()}}
         </div>
     </div>
 @endsection

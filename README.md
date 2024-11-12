@@ -19,3 +19,9 @@ npm i --save bootstrap @popperjs/core <INSTALANDO FRAMEWORK BOOTSTRAP>
 npm i --save-dev sass <SASS AGRUPAMENTO>
 
 npm run dev <EXECUTA BIBLIOTECAS NODE>
+
+php artisan lang:publish <INSTALANDO A PASTA DE LINGUAGEM>
+
+composer require lucascudo/laravel-pt-br-localization --dev <INSTALANDO O PACOTE>
+
+php artisan vendor:publish --tag=laravel-pt-br-localization <PUBLICANDO AS TRADUÇÕES>

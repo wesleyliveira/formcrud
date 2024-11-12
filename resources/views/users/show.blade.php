@@ -5,7 +5,7 @@
 
         <div class="card-header hstack gap-2">
 
-            <span class="text-center"> Usuário</span>
+            <span class="text-center"> <strong>Usuário</strong></span>
             <span class="ms-auto d-sm-flex flex-row">
 
 
@@ -18,7 +18,7 @@
                         onclick="return confirm('Tem certeza que deseja excluir?')">Excluir</button>
                 </form>
                 <a href="{{ route('user.index', ['user' => $user->id]) }}"
-                    class="btn btn-outline-info btn-sm me-1">Voltar</a>
+                    class="btn btn-outline-info btn-sm me-1">Listar</a>
             </span>
         </div>
         <div class="card-body">
